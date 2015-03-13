@@ -1,10 +1,15 @@
 #setup.py
-#PY2EXE
 
 from distutils.core import setup
 import py2exe
 
-setup(console=['filename.py'],)
+setup(console=['Steal_USB.py'],
+	options={
+		"py2exe":{
+			"bundle_files": 1
+		}
+	},
+	zipfile=None)
 
 #usage:
 #Set 'filename.py'
