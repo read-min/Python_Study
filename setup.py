@@ -3,7 +3,7 @@
 from distutils.core import setup
 import py2exe
 
-setup(console=['Steal_USB.py'],
+setup(console=['FileName.py'],
 	options={
 		"py2exe":{
 			"bundle_files": 1
